@@ -1,15 +1,16 @@
 <?php
 
 $idade = 18;
-$nome = "Felipe";
+$nacionalidade = "Brasileira";
 
-$felipe = true;
+$aprovado = false;
 
-echo "Carteira de motorista!" . PHP_EOL;
 
-if(!$felipe) {
-    echo "voce tem $idade anos. Pode entrar";
+if($idade >= 18 && $nacionalidade == "Brasileira" && $aprovado) {
+    echo "voce tem $idade anos. Pode entrar" . PHP_EOL;
 } else {
-    echo "Desculpa mas com $idade anos, voce nao pode dirigir...." . PHP_EOL;
-    echo "Aguarde mais um tempo até poder dirigir....";
+    echo "Desculpa mas voce nao pode dirigir." . PHP_EOL;
 }
+
+echo PHP_EOL;
+echo "Adeus!";
