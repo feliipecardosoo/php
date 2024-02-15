@@ -9,7 +9,7 @@ $idade = 20;
 
 /* 
 
-\n	Nova linha
+\n	Nova linha -> porem utilizaremos o "PHP_EOL"
 \r	Retorno de carro
 \t	Tabulação horizontal
 \v	Tabulação vertical
